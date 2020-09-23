@@ -31,6 +31,7 @@ function SearchMovies() {
           placeholder="i.e. The Killing"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          required
         />
         <button className="button" type="submit">Search</button>
       </form>
